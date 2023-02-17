@@ -1,0 +1,76 @@
+#carousel .carousel-inner .carousel-item img {
+    opacity: 0.5;
+}
+
+#carousel .carousel-inner .carousel-item {
+    background: rgb(1 1 1 / 90%);
+}
+
+#elearning .elearningDiv {
+    background-color: #F4FAFD;
+}
+.rightFeed i{
+    color: #FBBF24;
+}
+#feedback .chevron-left,
+#feedback .chevron-right{
+    position: relative;
+    left: 44px;
+    z-index: 1;
+    background-color: #E5F6FF;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+#feedback .chevron-right{
+    left: -44px;
+}
+#feedback .chevron-left:hover,
+#feedback .chevron-right:hover{
+    fill: #FFFFFF;
+    background-color: #289BDE;
+}
+
+/*----------------- Media Query Start -----------------*/
+@media (max-width: 767.98px) {
+    #courses .cardCourses img {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .elearningDesp {
+        width: 80%;
+    }
+    #success .card{
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+@media (max-width: 991.98px){
+
+    #join .joinReg.bg-primary.text-white.d-flex.align-items-center.flex-wrap.p-5.mb-5 {
+        text-align: center;
+    }
+    
+    #join .col-md-12.col-lg-6.mx-auto.w-md-100.w-lg-50.text-end {
+        text-align: center !important;
+    }
+    .feedbackSlider{
+        display: block !important;
+    }
+
+}
+
+@media (min-width: 992px) {
+    #courses .cardCourses img {
+        height: 100%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    #feedback .chevron-left{
+        left: 33px;
+    }
+    #feedback .chevron-right{
+        left: -33px;
+    }
+}
